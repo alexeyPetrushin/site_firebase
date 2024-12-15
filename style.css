@@ -1,0 +1,293 @@
+hr {
+    height:1px;
+    border-width: 0;
+    width:100%;
+    background-color: #e0e0e0;
+    
+}
+.container {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    align-content:space-between;
+    border-radius:0px;
+}
+
+.btn {
+    
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    
+    
+    
+    /* border: 1px double black;*/
+    border-radius: 5em;
+}
+.btn-odin {
+    
+    margin-left: 1em;
+    height: 2em;
+    width: 6em;
+    background-color: #72e26d;
+    color: #72e26d;
+    /* border: 1px double black;*/
+    border-radius: 5em;
+    margin-top: -4em;
+
+}
+.btn-odin:hover{
+    background-color:mediumpurple;
+    transition:0.2s;
+}
+
+.KNOPKA {
+    cursor: pointer;
+    display: flex;
+    margin-left: 1em;
+    height: 1.75em;
+    width: 1.75em;
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 0.1em solid black;
+    border-radius: 5em;
+    margin-top:-4em;
+}
+.KNOPKA:hover{
+    background-color:#72e26d;
+    transition:0.2s;
+}
+
+.newbutton {
+    cursor: pointer;
+    display: flex;
+    place-content:center;
+    align-items:center;
+    margin-left: 1.5em;
+    height: 3em;
+    width:11em;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    font-family:Manrope;
+    font-weight:300;
+    
+    
+}
+    .newbutton:hover {
+        background-color: mediumpurple;
+        transition: 0.2s
+    }
+.buttons {
+    display: flex;
+    justify-content: left;
+    margin-left:1em;
+    position: relative;
+}
+.logo{
+    display:flex;
+    height:3em;
+    width:211px;
+    margin-left:2em;
+}
+.buttons_header{
+
+    display:flex;
+    justify-content:right;
+    margin-right:50px;
+    position:relative;
+       
+    
+
+}
+
+a {
+    color: white;
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 16px;
+ 
+}
+
+.item {
+      width: 25%;
+      height: 33.33%;
+      border: 1px solid black;
+    }
+
+.restaurant-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left:5em;
+    margin-top:2em;
+    column-gap:2em;
+    /*justify-content: flex-start;*/
+    align-items: flex-start;
+    align-content: space-between;
+  
+}
+
+.restaurant-card {
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+    width: 200px;
+    gap:8px;
+    
+    border-radius: 5px;
+
+}
+
+.rating {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    line-height: 2em;
+    width: 2em;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    font-family: Manrope;
+    border-radius:5px;
+    position:relative;
+    bottom:-3.2em;
+    left:9.5em;
+}
+.restaurant-card img {
+  width: 200px;
+  height:140px;
+  border-radius:7px;
+
+}
+
+.restorani{
+    margin-left:5em;
+    margin-bottom:1em;
+}
+h1, h2, h4, p {
+  margin: 0px;
+  font-family:Manrope;
+
+}
+h3{
+    margin:0px;
+    font-family:Manrope;
+    font-weight:600;
+}
+.POISK {
+    display: flex;
+    width: 20em;
+    height: 2em;
+    place-content: center;
+    align-items:center;
+    
+    background-color: #d7d7d7;
+    
+    border-radius: 5px;
+
+    margin-bottom:3em;
+    margin-left:5em;
+    margin-top: 2em;
+}
+
+.h10 {
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 300;
+    color: #ABABAB;
+   
+}
+.footer {
+    display: flex;
+    margin-top: 5em;
+    width: 100%;
+    height: 15em;
+    
+    background-color: #232323;
+}
+h11 {
+
+    color: white;
+    font-family: Manrope;
+    font-weight: 100;
+    font-size:16px;
+    margin-left:2.5em;
+    margin-top:2em;
+    
+
+}
+.h12 {
+    color: white;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 4em;
+    margin-top:1em;
+    
+}
+.footer_text{
+    display:flex;
+    flex-flow:column wrap;
+    gap:0.3em;
+    margin-top:4em;
+    margin-left:-12em;
+
+}
+.footer-prikol {
+   margin-left:2.5em;
+}
+.image {
+    margin-left: 0.5em;
+    margin-top: 0.25em;
+}
+.image_avatar{
+    width:1.5em;
+    margin-left:0.15em;
+}
+.h7 {
+
+    color: black;
+    font-family: Manrope;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 1.5em;
+    vertical-align: 0.3em;
+    position: relative;
+    top: -26px;
+    left: 25px;
+    color:white;
+    position:relative;
+    top:-0px;
+    left:-13px;
+}
+
+.h13{
+    color:black;
+    font-family:Manrope;
+    font-weight:300;
+    font-size:16px;
+    margin-left:1.5em;
+    vertical-align:0.3em;
+    position:relative;
+    top:-26px;
+    left:25px;
+}
+.logofooter {
+   
+   
+    display: flex;
+    position:relative;
+    height: 3em;
+    
+    margin-left: 43%;
+    margin-top:-4em;
+    
+
+}
+.prikol{
+    display:flex;
+    justify-content:right;
+    margin-left:50em;
+    margin-top:4em;
+}
